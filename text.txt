@@ -5,3 +5,8 @@ O que é?
 RabbitMQ é um software de mensagem open-source que implementou o protocolo "Advanced Messaging Queuing Protoclo" (AMQP) e estendeu-se com uma arquitetura plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol" (STOMP), o MQTT, entre outros...
 
 Operando de forma assíncrona, o rabbitMQ age como um intermediário que processa as mensagens entre "produtores" e "consumidores", além de de contar com filas que possuem diversas opções de encaminhamento.
+
+fontes:
+
+https://fullcycle.com.br/como-funciona-o-rabbitmq/
+https://pt.wikipedia.org/wiki/RabbitMQ

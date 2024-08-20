@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Install RabbitMQ
+    init: sudo rabbitmq-server start
+    command: echo "RabbitMQ started"
+
+ports:
+  - port: 15672
+    onOpen: open-preview
+    visibility: public
+  - port: 5672
+    visibility: public
